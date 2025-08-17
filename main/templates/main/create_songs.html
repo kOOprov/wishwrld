@@ -1,0 +1,8 @@
+{% extends 'main/layout.html' %}
+{%block content%}
+    <form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form}}
+    <p><button type="submit">отправить</button></p>
+    </form>
+{%endblock%}

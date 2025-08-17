@@ -1,0 +1,19 @@
+{% extends 'main/layout.html' %}
+{%block content%}<br>
+    <h1 id="Search_Results_str">Search Results</h1>
+    {% if song %}
+    <div id="main_div_songs">
+    {% for el in song %}
+        <div id="song_autor_file">
+        <span id="song_autor">{{ el.autor }} <br> {{ el.song_name }}</span><audio id="song_file" controls>
+            <source src="{{ el.file.url }}" type="audio/mpeg">
+        </audio><br>
+        <br> <br>
+        </div>
+    {% endfor %}
+    </div>
+    {% else %}
+        <h1 id="airball">I'm sorry , My Boy , but this is a real airball...</h1>
+
+    {% endif %}
+{%endblock%}

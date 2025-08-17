@@ -1,0 +1,18 @@
+{% extends 'main/layout.html' %}
+{%block content%}
+    <form action="{% url 'search_result' %}" method="get">
+      <input name="song_name" type="text" placeholder="Search..." id="search" >
+    </form>
+   {% if song %}
+    <div id="main_div_songs">
+    {% for el in song %}
+        <div id="song_autor_file">
+        <span id="song_autor">{{ el.autor }} <br> {{ el.song_name }}</span><audio id="song_file" controls>
+            <source src="{{ el.file.url }}" type="audio/mpeg">
+        </audio><br>
+        <br> <br>
+        </div>
+    {% endfor %}
+    </div>
+{% endif %}
+{%endblock%}

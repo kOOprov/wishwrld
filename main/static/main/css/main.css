@@ -1,0 +1,291 @@
+body {
+    background:#548587
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.index {
+    position: absolute;
+    left:190px;
+    top:-30px;
+
+}
+#myplaylist {
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 60px
+}
+#wishwrld_main {
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+    font-size: 48px
+}
+.songs {
+
+    position: absolute;
+    left: 200px;
+    top: 500px
+}
+.albums {
+    position:absolute;
+    left:200px;
+    top:250px;
+}
+.albums:hover{
+    transform: scale(1.02);
+    transition: all.1s ease;
+}
+#songimg {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #fc2847;
+    border-radius:17px;
+}
+.songs:hover{
+    transform: scale(1.02);
+    transition: all.1s ease;
+}
+#music {
+    margin-top:3px;
+    text-align: center;
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+}
+#albumsimg {
+    border: 3px solid #fc2847;
+    border-radius:17px;
+    width: 150px;
+    height: 150px;
+}
+#albums {
+    margin-top:3px;
+    text-align: center;
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+}
+.feedback{
+    position:absolute;
+    left:500px;
+    top:250px;
+}
+.feedback:hover{
+    transform: scale(1.02);
+    transition: all.1s ease;
+}
+#feedbackimg {
+   width: 150px;
+   height: 150px;
+   border: 3px solid #fc2847;
+   border-radius:17px;
+}
+#feedback {
+    margin-top:3px;
+    text-align: center;
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+}
+.mabout {
+    position:absolute;
+    left:500px;
+    top:500px;
+}
+.mabout:hover{
+    transform: scale(1.02);
+    transition: all.1s ease;
+}
+#maboutimg {
+   width: 150px;
+   height: 150px;
+   border: 3px solid #fc2847;
+   border-radius:17px;
+}
+#mabout {margin-top:3px;
+    text-align: center;
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+}
+.ochenvajno {
+    position:absolute;
+    left:800px;
+    top:500px;
+}
+.ochenvajno:hover{
+    transform: scale(1.02);
+    transition: all.1s ease;
+}
+#ochenvajnoimg {
+   width: 150px;
+   height: 150px;
+   border: 3px solid #fc2847;
+   border-radius:17px;
+}
+#ochenvajno {
+    text-align: center;
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+    margin-top:3px
+}
+.my_playlist {
+    position:absolute;
+    left:800px;
+    top:250px;
+    opacity: 0.0001;
+}
+.my_playlist:hover{
+    transform: scale(1.02);
+    transition: all.1s ease;
+}
+#my_playlistimg {
+   width: 150px;
+   height: 150px;
+   border: 3px solid #fc2847;
+   border-radius:17px;
+}
+#my_playlist {
+    margin-top:3px;
+    text-align: center;
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+}
+h1 {
+
+    font-size: 40px;
+    letter-spacing:-4px;
+    word-spacing: 15px;
+    text-align: center;
+}
+#main_div_songs {
+    float:center;
+    width:75%;
+    position:absolute;
+    left:200px;
+    top: 200px;
+}
+#song_autor {
+    float:left;
+    position:absolute;
+    left: 300px;
+    padding-top:4px;
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+}
+#song_file {
+    float:right;
+    position:absolute;
+    left:720px;
+    padding-bottom:10px
+
+}
+#song_autor_file {
+    float:center;
+    background:#76a4a3;
+    margin:10px;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-left: 7px;
+    height: 60px;
+    border: 2px solid red;
+}
+audio::-webkit-media-controls-panel {
+    background-color:#fb607f;
+}
+
+#search {
+    float:center;
+    position:absolute;
+    left: 400px;
+    top:125px;
+    background-color:#76a4a3;
+    height: 40px;
+    width:50%;
+    border-radius: 15px;
+    border: 2px solid #fc2847
+}
+#img_my_playlist {
+    position:absolute;
+    left:664px;
+    border-radius: 25px;
+    border: 1px solid #fc2847
+}
+.layout {
+    word-spacing: 22px;
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+    position: fixed;
+    z-index:2;
+    left:345px;
+    width:800px;
+    background-color:#fc2847;
+    border-radius: 25px;
+    padding:10px;
+}
+#Search_Results_str{
+    position:absolute;
+    top: 34px;
+    left:600px;
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+    font-size: 48px
+}
+#wishwrld_layout:hover{
+    transform: scale(1.02);
+    transition: all 1s ease;
+}
+
+#form {
+    margin-left:32%;
+    width:300px
+}
+#features {
+    color: red;
+    float: left;
+    width: 40%;
+    border-radius:50px
+}
+.alert alert-warning {
+    width:50%;
+    border-radius:50px
+}
+#add_comm {
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+    font-size: 48px;
+    margin-top:60px
+}
+.comm {
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+    font-size: 48px;
+}
+#nothing_alb{
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -4px
+}
+#airball {
+    margin-top:120px;
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+}
+#wishpage{
+    font-size: 40px;
+    letter-spacing:-4px;
+    word-spacing: 15px;
+    text-align: center;
+    font-family: 'Arial Black' ;
+
+    margin-top:55px
+}
+#vsyplenie {
+    width:1000px;
+    font-family: 'Arial Black' ;
+    font-weight: bold;
+    font-size: 28px;
+    position:absolute;
+    left:150px;
+    line-height:37px
+}

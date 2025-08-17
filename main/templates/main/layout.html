@@ -1,0 +1,25 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'main/css/main.css'%}" >
+
+    <title>WISH WRLD</title>
+</head>
+    <div class="layout">
+    <a href="/" id="wishwrld_layout">WishWRLD</a>
+    <a id="albums_layout" href="{%url 'albums'%}">ALBUMS</a>
+    <a id="music_layout" href="{%url 'songs'%}">MUSIC</a>
+    <a id="feedback_layout" href="{%url 'feedback' %}">FEEDBACK</a>
+    <a id="about_wish_layout" href="{%url 'wishpage'%}">ABOUT WISH</a>
+    <a id="ochenvajno_layout" href="{%url 'ochenvajno'%}">OCHEN'VAJNO</a>
+    </div>
+<body>
+    {% block content%}
+    {% endblock %}
+</body>
+</html>

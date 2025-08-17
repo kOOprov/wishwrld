@@ -1,0 +1,14 @@
+{% extends 'main/layout.html' %}
+{% block content%}<br>
+<h1 id="myplaylist">My Playlist</h1>
+    <div id="main_div_songs">
+    {% for el in song %}
+        <div id="song_autor_file">
+         <span id="song_autor">{{ el.song_name }} <br> {{ el.autor }}</span><audio id="song_file" controls>
+            <source src="{{ el.file.url }}" type="audio/mpeg">
+    </audio>
+
+    </div>
+
+    {% endfor %}
+{%endblock%}

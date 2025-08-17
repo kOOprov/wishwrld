@@ -1,0 +1,56 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'main/css/main.css'%}" >
+    <title>WISH WRLD</title>
+</head>
+<body>
+    <h1 id="wishwrld_main">WISH WRLD</h1>
+    <aside>
+<div class="index">
+        <div class="songs">
+            <a href="{% url 'songs'%}" >
+             <img src="media/5220030761556641240.jpg" id="songimg" >
+             <p id="music">MUSIC </p>
+            </a>
+
+        </div>
+        <div class="albums">
+            <a href="{% url 'albums'%}" >
+             <img src="media/5238036926613813367.jpg" id="albumsimg">
+             <p id="albums">ALBUMS </p>
+            </a>
+        </div>
+        <div class="feedback">
+            <a href="{% url 'feedback'%}" >
+             <img src="https://static.tildacdn.com/tild3533-3233-4264-a331-303862396365/feedback-1825515_128.jpg" id="feedbackimg">
+             <p id="feedback">FEEDBACK </p>
+            </a>
+        </div>
+        <div class="mabout">
+            <a href="{% url 'wishpage'%}" >
+             <img src="media/5409075885983792282.jpg" id="maboutimg">
+             <p id="mabout">ABOUT WISH </p>
+            </a>
+        </div>
+        <div class="ochenvajno">
+            <a href="{% url 'ochenvajno'%}" >
+             <img src="media/5420527961012039191.jpg" id="ochenvajnoimg">
+             <p id="ochenvajno">OCHENVAJNO</p>
+            </a>
+        </div>
+        <div class="my_playlist">
+            <a href="{% url 'my_playlist'%}" >
+             <img src="https://cdn1.ozone.ru/s3/multimedia-1-s/7334426080.jpg" id="my_playlistimg">
+             <p id="my_playlist">MY PLAYLIST</p>
+            </a>
+        </div>
+    </aside>
+</div>
+</body>
+</html>
